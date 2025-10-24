@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7evyehpwpetr"
-path="res://.godot/imported/Terrain (16x16).png-b630ec7f044747e82a14e6cfc77347fe.ctex"
+path="res://.godot/imported/Terrain (16x16).png-ba5c05b51d326821116bb7a0c84dbd7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Terrain/Terrain (16x16).png"
-dest_files=["res://.godot/imported/Terrain (16x16).png-b630ec7f044747e82a14e6cfc77347fe.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Terrain/Terrain (16x16).png"
+dest_files=["res://.godot/imported/Terrain (16x16).png-ba5c05b51d326821116bb7a0c84dbd7e.ctex"]
 
 [params]
 

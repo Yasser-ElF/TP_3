@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4jyxwvc8q7le"
-path="res://.godot/imported/Dust Particle.png-2361ec0f005938365d5de9f513d26fc5.ctex"
+path="res://.godot/imported/Dust Particle.png-9309ae9fc8246eab1be25aecc8472115.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Other/Dust Particle.png"
-dest_files=["res://.godot/imported/Dust Particle.png-2361ec0f005938365d5de9f513d26fc5.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Other/Dust Particle.png"
+dest_files=["res://.godot/imported/Dust Particle.png-9309ae9fc8246eab1be25aecc8472115.ctex"]
 
 [params]
 

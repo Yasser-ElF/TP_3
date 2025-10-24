@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qamswosiscnf"
-path="res://.godot/imported/Fall (32x32).png-475fab0b937fa10f58a10581540f280d.ctex"
+path="res://.godot/imported/Fall (32x32).png-41726aa9a378708015dc6137883a0192.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Main Characters/Mask Dude/Fall (32x32).png"
-dest_files=["res://.godot/imported/Fall (32x32).png-475fab0b937fa10f58a10581540f280d.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Main Characters/Mask Dude/Fall (32x32).png"
+dest_files=["res://.godot/imported/Fall (32x32).png-41726aa9a378708015dc6137883a0192.ctex"]
 
 [params]
 

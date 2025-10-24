@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c21kp4mgrxs05"
-path="res://.godot/imported/Melon.png-5b385e575ac937f7b7ca48804eeca38c.ctex"
+path="res://.godot/imported/Melon.png-53e8cbb3e705d53c1f1891eed6d57f7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Items/Fruits/Melon.png"
-dest_files=["res://.godot/imported/Melon.png-5b385e575ac937f7b7ca48804eeca38c.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Items/Fruits/Melon.png"
+dest_files=["res://.godot/imported/Melon.png-53e8cbb3e705d53c1f1891eed6d57f7c.ctex"]
 
 [params]
 

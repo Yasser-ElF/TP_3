@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cyryyr8p4wji8"
-path="res://.godot/imported/mixkit-retro-arcade-casino-notification-211.wav-6869e515ae3fce82dc6dccbd9b2115e0.sample"
+path="res://.godot/imported/mixkit-retro-arcade-casino-notification-211.wav-be23e3b23670dac4a39e5a48d0b796a9.sample"
 
 [deps]
 
-source_file="res://platformer_tp1/assets/audio/mixkit-retro-arcade-casino-notification-211.wav"
-dest_files=["res://.godot/imported/mixkit-retro-arcade-casino-notification-211.wav-6869e515ae3fce82dc6dccbd9b2115e0.sample"]
+source_file="res://platformer_tp3/assets/audio/mixkit-retro-arcade-casino-notification-211.wav"
+dest_files=["res://.godot/imported/mixkit-retro-arcade-casino-notification-211.wav-be23e3b23670dac4a39e5a48d0b796a9.sample"]
 
 [params]
 

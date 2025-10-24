@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnygy2nbrk23b"
-path="res://.godot/imported/Bottom Hit (42x42).png-c98cf57d5e5fa74794a74ba3e963935f.ctex"
+path="res://.godot/imported/Bottom Hit (42x42).png-421f507a0d6c7cd7ae004376508ce4c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Traps/Rock Head/Bottom Hit (42x42).png"
-dest_files=["res://.godot/imported/Bottom Hit (42x42).png-c98cf57d5e5fa74794a74ba3e963935f.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Traps/Rock Head/Bottom Hit (42x42).png"
+dest_files=["res://.godot/imported/Bottom Hit (42x42).png-421f507a0d6c7cd7ae004376508ce4c0.ctex"]
 
 [params]
 

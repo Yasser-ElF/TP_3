@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djms7swfbm7vb"
-path="res://.godot/imported/portal (1).png-1e2fd55cc93ea7b9d613cb33992958bd.ctex"
+path="res://.godot/imported/portal (1).png-de77d6d6d69d2860d60dc2d02ffc1ef7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/portal (1).png"
-dest_files=["res://.godot/imported/portal (1).png-1e2fd55cc93ea7b9d613cb33992958bd.ctex"]
+source_file="res://platformer_tp3/assets/sprites/portal (1).png"
+dest_files=["res://.godot/imported/portal (1).png-de77d6d6d69d2860d60dc2d02ffc1ef7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv66wb2cbil4h"
-path="res://.godot/imported/Hit (16x32).png-1d1bbcbb4704b3a37a2db95de15270fb.ctex"
+path="res://.godot/imported/Hit (16x32).png-2d23a4158574140875c3d1ce4094f41c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Traps/Fire/Hit (16x32).png"
-dest_files=["res://.godot/imported/Hit (16x32).png-1d1bbcbb4704b3a37a2db95de15270fb.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Traps/Fire/Hit (16x32).png"
+dest_files=["res://.godot/imported/Hit (16x32).png-2d23a4158574140875c3d1ce4094f41c.ctex"]
 
 [params]
 

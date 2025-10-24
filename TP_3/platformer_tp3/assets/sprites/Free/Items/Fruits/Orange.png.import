@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7yhpoevbbx03"
-path="res://.godot/imported/Orange.png-fe17eac139dd8058504a832a6d5a3715.ctex"
+path="res://.godot/imported/Orange.png-c963cf7f40068d6866016577f5c4c19d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Items/Fruits/Orange.png"
-dest_files=["res://.godot/imported/Orange.png-fe17eac139dd8058504a832a6d5a3715.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Items/Fruits/Orange.png"
+dest_files=["res://.godot/imported/Orange.png-c963cf7f40068d6866016577f5c4c19d.ctex"]
 
 [params]
 

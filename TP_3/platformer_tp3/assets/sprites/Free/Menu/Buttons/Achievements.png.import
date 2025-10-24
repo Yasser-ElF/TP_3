@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmenu6w22csxu"
-path="res://.godot/imported/Achievements.png-91da09db4b328b18c6c2dc5bdd5f4297.ctex"
+path="res://.godot/imported/Achievements.png-7ec74a20470d76d512e133d9bd720cf1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Menu/Buttons/Achievements.png"
-dest_files=["res://.godot/imported/Achievements.png-91da09db4b328b18c6c2dc5bdd5f4297.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Menu/Buttons/Achievements.png"
+dest_files=["res://.godot/imported/Achievements.png-7ec74a20470d76d512e133d9bd720cf1.ctex"]
 
 [params]
 

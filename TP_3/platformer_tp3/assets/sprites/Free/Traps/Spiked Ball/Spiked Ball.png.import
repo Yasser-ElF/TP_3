@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://17554ub0g063"
-path="res://.godot/imported/Spiked Ball.png-d440ea99c3e72c95d619141da94cb762.ctex"
+path="res://.godot/imported/Spiked Ball.png-9e8f9faefd12a9918906a73214a48b7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Traps/Spiked Ball/Spiked Ball.png"
-dest_files=["res://.godot/imported/Spiked Ball.png-d440ea99c3e72c95d619141da94cb762.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Traps/Spiked Ball/Spiked Ball.png"
+dest_files=["res://.godot/imported/Spiked Ball.png-9e8f9faefd12a9918906a73214a48b7f.ctex"]
 
 [params]
 

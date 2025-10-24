@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cavahwf1c12ls"
-path="res://.godot/imported/Hit (28x24).png-d865735dd5efd6b5a130e47bea62c7c2.ctex"
+path="res://.godot/imported/Hit (28x24).png-35cd45c144ab1ad7c6614c65a78cd119.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Items/Boxes/Box2/Hit (28x24).png"
-dest_files=["res://.godot/imported/Hit (28x24).png-d865735dd5efd6b5a130e47bea62c7c2.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Items/Boxes/Box2/Hit (28x24).png"
+dest_files=["res://.godot/imported/Hit (28x24).png-35cd45c144ab1ad7c6614c65a78cd119.ctex"]
 
 [params]
 

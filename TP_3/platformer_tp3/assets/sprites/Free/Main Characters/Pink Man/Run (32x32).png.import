@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4sbxr7u1jtjv"
-path="res://.godot/imported/Run (32x32).png-93ad358fb1ed67f30de3a135ab59cca6.ctex"
+path="res://.godot/imported/Run (32x32).png-5f21f567d47e76e8c680c5c35b73a473.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://platformer_tp1/assets/sprites/Free/Main Characters/Pink Man/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-93ad358fb1ed67f30de3a135ab59cca6.ctex"]
+source_file="res://platformer_tp3/assets/sprites/Free/Main Characters/Pink Man/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-5f21f567d47e76e8c680c5c35b73a473.ctex"]
 
 [params]
 
