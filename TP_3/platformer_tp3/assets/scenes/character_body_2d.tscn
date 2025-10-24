@@ -243,3 +243,5 @@ speed_scale = 6.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -14)
 shape = SubResource("CapsuleShape2D_0pcpn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

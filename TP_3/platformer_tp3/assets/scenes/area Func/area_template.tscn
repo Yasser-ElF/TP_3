@@ -1,13 +1,13 @@
 [gd_scene load_steps=9 format=4 uid="uid://bw7ub8k7lmyd7"]
 
-[ext_resource type="TileSet" uid="uid://dg817vgkjfhd0" path="res://platformer_tp1/assets/sprites/Free/Terrain/terain.tres" id="1_ch1hp"]
-[ext_resource type="PackedScene" uid="uid://bbsurxxwbgpcq" path="res://platformer_tp1/assets/scenes/character_body_2d.tscn" id="2_l2ev2"]
-[ext_resource type="AudioStream" uid="uid://bqf61qtpvauaa" path="res://platformer_tp1/assets/audio/sfx_player_jump.mp3" id="3_e35cm"]
-[ext_resource type="AudioStream" uid="uid://dwmbgpoekuo51" path="res://platformer_tp1/assets/audio/sfx_player_fall.mp3" id="4_rpowp"]
-[ext_resource type="AudioStream" uid="uid://dr41bwt3nf1h3" path="res://platformer_tp1/assets/audio/sfx_player_footsteps.mp3" id="5_jr4k7"]
-[ext_resource type="PackedScene" uid="uid://dydy5q56fn4qf" path="res://platformer_tp1/assets/scenes/area Func/area_exit.tscn" id="6_ehlof"]
-[ext_resource type="PackedScene" uid="uid://cexra881dd400" path="res://platformer_tp1/assets/scenes/energy_cell.tscn" id="7_x0c84"]
-[ext_resource type="Script" uid="uid://b8uqhtxmig1qg" path="res://platformer_tp1/assets/script/pause_menu.gd" id="8_8mvax"]
+[ext_resource type="TileSet" uid="uid://dg817vgkjfhd0" path="res://platformer_tp3/assets/sprites/Free/Terrain/terain.tres" id="1_ch1hp"]
+[ext_resource type="PackedScene" uid="uid://bbsurxxwbgpcq" path="res://platformer_tp3/assets/scenes/character_body_2d.tscn" id="2_l2ev2"]
+[ext_resource type="AudioStream" uid="uid://bqf61qtpvauaa" path="res://platformer_tp3/assets/audio/sfx_player_jump.mp3" id="3_e35cm"]
+[ext_resource type="AudioStream" uid="uid://dwmbgpoekuo51" path="res://platformer_tp3/assets/audio/sfx_player_fall.mp3" id="4_rpowp"]
+[ext_resource type="AudioStream" uid="uid://dr41bwt3nf1h3" path="res://platformer_tp3/assets/audio/sfx_player_footsteps.mp3" id="5_jr4k7"]
+[ext_resource type="PackedScene" uid="uid://dydy5q56fn4qf" path="res://platformer_tp3/assets/scenes/area Func/area_exit.tscn" id="6_ehlof"]
+[ext_resource type="PackedScene" uid="uid://cexra881dd400" path="res://platformer_tp3/assets/scenes/energy_cell.tscn" id="7_x0c84"]
+[ext_resource type="Script" uid="uid://b8uqhtxmig1qg" path="res://platformer_tp3/assets/script/pause_menu.gd" id="8_8mvax"]
 
 [node name="AreaTemplate" type="Node2D"]
 
