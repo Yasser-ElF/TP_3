@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dydy5q56fn4qf"]
+
+[ext_resource type="Texture2D" uid="uid://djms7swfbm7vb" path="res://platformer_tp3/assets/sprites/portal (1).png" id="1_oo1sb"]
+[ext_resource type="Script" uid="uid://dyrw2c4dwlnw8" path="res://platformer_tp3/assets/script/area_exit.gd" id="1_yh3r7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yh3r7"]
+radius = 11.0
+
+[node name="AreaExit" type="Area2D" node_paths=PackedStringArray("sprite") groups=["area_exits"]]
+z_index = -10
+collision_layer = 65536
+script = ExtResource("1_yh3r7")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oo1sb")
+region_enabled = true
+region_rect = Rect2(22, 0, 22, 22)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_yh3r7")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

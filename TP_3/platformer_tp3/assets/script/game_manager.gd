@@ -1,7 +1,7 @@
 extends Node
 
 var current_area = 1
-var area_path = "res://platformer_tp1/assets/scenes/areas/"
+var area_path = "res://platformer_tp3/assets/scenes/areas/"
 var energy_cells = 0
 
 func next_level():

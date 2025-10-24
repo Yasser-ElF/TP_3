@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://dgfi71xxc5bej"]
 
-[ext_resource type="AudioStream" uid="uid://bqf61qtpvauaa" path="res://platformer_tp1/assets/audio/sfx_player_jump.mp3" id="1_5tuxm"]
-[ext_resource type="AudioStream" uid="uid://dwmbgpoekuo51" path="res://platformer_tp1/assets/audio/sfx_player_fall.mp3" id="2_snds3"]
-[ext_resource type="AudioStream" uid="uid://dr41bwt3nf1h3" path="res://platformer_tp1/assets/audio/sfx_player_footsteps.mp3" id="3_6yp2d"]
+[ext_resource type="AudioStream" uid="uid://bqf61qtpvauaa" path="res://platformer_tp3/assets/audio/sfx_player_jump.mp3" id="1_5tuxm"]
+[ext_resource type="AudioStream" uid="uid://dwmbgpoekuo51" path="res://platformer_tp3/assets/audio/sfx_player_fall.mp3" id="2_snds3"]
+[ext_resource type="AudioStream" uid="uid://dr41bwt3nf1h3" path="res://platformer_tp3/assets/audio/sfx_player_footsteps.mp3" id="3_6yp2d"]
 
 [sub_resource type="GDScript" id="GDScript_kevv0"]
 script/source = "

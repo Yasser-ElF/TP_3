@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=4 uid="uid://bh5caawcxxevu"]
 
-[ext_resource type="PackedScene" uid="uid://bw7ub8k7lmyd7" path="res://platformer_tp1/assets/scenes/area Func/area_template.tscn" id="1_16ofs"]
+[ext_resource type="PackedScene" uid="uid://bw7ub8k7lmyd7" path="res://platformer_tp3/assets/scenes/area Func/area_template.tscn" id="1_16ofs"]
 
 [node name="Area3" instance=ExtResource("1_16ofs")]
 

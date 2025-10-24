@@ -1,8 +1,8 @@
 [gd_scene load_steps=23 format=3 uid="uid://cexra881dd400"]
 
-[ext_resource type="Script" uid="uid://dehjp014gnj5h" path="res://platformer_tp1/assets/script/energy_cell.gd" id="1_5h6l4"]
-[ext_resource type="Texture2D" uid="uid://2oekidmuug52" path="res://platformer_tp1/assets/sprites/Free/Items/Fruits/Pineapple.png" id="2_l4pvh"]
-[ext_resource type="AudioStream" uid="uid://cyryyr8p4wji8" path="res://platformer_tp1/assets/audio/mixkit-retro-arcade-casino-notification-211.wav" id="3_l4pvh"]
+[ext_resource type="Script" uid="uid://dehjp014gnj5h" path="res://platformer_tp3/assets/script/energy_cell.gd" id="1_5h6l4"]
+[ext_resource type="Texture2D" uid="uid://2oekidmuug52" path="res://platformer_tp3/assets/sprites/Free/Items/Fruits/Pineapple.png" id="2_l4pvh"]
+[ext_resource type="AudioStream" uid="uid://cyryyr8p4wji8" path="res://platformer_tp3/assets/audio/mixkit-retro-arcade-casino-notification-211.wav" id="3_l4pvh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rfgor"]
 atlas = ExtResource("2_l4pvh")

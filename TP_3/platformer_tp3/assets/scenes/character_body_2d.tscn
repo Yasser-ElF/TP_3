@@ -1,10 +1,10 @@
 [gd_scene load_steps=32 format=3 uid="uid://bbsurxxwbgpcq"]
 
-[ext_resource type="Script" uid="uid://gwjgw1ntm6lu" path="res://platformer_tp1/assets/script/joueure_controller.gd" id="1_0pcpn"]
-[ext_resource type="Texture2D" uid="uid://clunjmfycnta7" path="res://platformer_tp1/assets/sprites/Free/Main Characters/Pink Man/Idle (32x32).png" id="2_0tynw"]
-[ext_resource type="Texture2D" uid="uid://ymdoavbvsg1r" path="res://platformer_tp1/assets/sprites/Free/Main Characters/Pink Man/Fall (32x32).png" id="2_7tdo1"]
-[ext_resource type="Texture2D" uid="uid://ev5gxoed0scp" path="res://platformer_tp1/assets/sprites/Free/Main Characters/Pink Man/Jump (32x32).png" id="4_mxthp"]
-[ext_resource type="Texture2D" uid="uid://4sbxr7u1jtjv" path="res://platformer_tp1/assets/sprites/Free/Main Characters/Pink Man/Run (32x32).png" id="5_ahshx"]
+[ext_resource type="Script" uid="uid://gwjgw1ntm6lu" path="res://platformer_tp3/assets/script/joueure_controller.gd" id="1_0pcpn"]
+[ext_resource type="Texture2D" uid="uid://clunjmfycnta7" path="res://platformer_tp3/assets/sprites/Free/Main Characters/Pink Man/Idle (32x32).png" id="2_0tynw"]
+[ext_resource type="Texture2D" uid="uid://ymdoavbvsg1r" path="res://platformer_tp3/assets/sprites/Free/Main Characters/Pink Man/Fall (32x32).png" id="2_7tdo1"]
+[ext_resource type="Texture2D" uid="uid://ev5gxoed0scp" path="res://platformer_tp3/assets/sprites/Free/Main Characters/Pink Man/Jump (32x32).png" id="4_mxthp"]
+[ext_resource type="Texture2D" uid="uid://4sbxr7u1jtjv" path="res://platformer_tp3/assets/sprites/Free/Main Characters/Pink Man/Run (32x32).png" id="5_ahshx"]
 
 [sub_resource type="GDScript" id="GDScript_0pcpn"]
 script/source = "extends Node2D
