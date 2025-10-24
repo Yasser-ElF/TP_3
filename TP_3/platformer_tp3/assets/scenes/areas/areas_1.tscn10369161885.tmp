@@ -1,0 +1,80 @@
+[gd_scene load_steps=5 format=4 uid="uid://bw7ub8k7lmyd7"]
+
+[ext_resource type="Texture2D" uid="uid://xykblysn5a2l" path="res://Assests/sprites/tiles_1.png" id="1_da7ka"]
+[ext_resource type="PackedScene" uid="uid://bbsurxxwbgpcq" path="res://Assests/scenes/character_body_2d.tscn" id="2_s7uhu"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0yndd"]
+texture = ExtResource("1_da7ka")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:3/0 = 0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_fv805"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_0yndd")
+
+[node name="areas1" type="Node2D"]
+
+[node name="Layer0" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD8/wAAAAABAAAAAAD9/wAAAAABAAAAAAD+/wAAAAABAAAAAAD//wAAAAABAAAAAAAAAAAAAAABAAAAAAABAAAAAAABAAAAAAACAAAAAAABAAAAAAADAAAAAAABAAAAAAAEAAAAAAABAAAAAAAFAAAAAAABAAAAAAAGAAAAAAABAAAAAAAHAAAAAAABAAAAAAAJAAAAAAABAAAAAAAIAAAAAAABAAAAAAAFAP//AAADAAMAAAAGAP7/AAADAAAAAAAGAP//AAADAAIAAAAHAP3/AAADAAAAAAAHAP7/AAADAAEAAAAHAP//AAADAAIAAAAIAP//AAADAAIAAAAIAP7/AAADAAEAAAAIAP3/AAADAAEAAAAIAPz/AAADAAEAAAAIAPv/AAADAAAAAAAGAPr/AAADAAMAAAAFAPr/AAADAAMAAAADAPn/AAADAAMAAAACAPn/AAADAAMAAAAAAPv/AAADAAMAAAD///v/AAADAAMAAAADAPX/AAADAAMAAAAFAPX/AAADAAMAAAAEAPX/AAADAAMAAAAGAPX/AAADAAMAAAAHAPX/AAADAAMAAAAIAPX/AAADAAMAAAAJAP//AAADAAEAAAAJAP7/AAADAAEAAAAJAP3/AAADAAEAAAAJAPz/AAADAAEAAAAJAPv/AAADAAEAAAAJAPr/AAADAAEAAAAJAPn/AAADAAEAAAAJAPj/AAADAAEAAAAJAPf/AAADAAEAAAAJAPb/AAADAAEAAAAJAPX/AAADAAEAAAAJAPT/AAADAAEAAAAJAPP/AAADAAEAAAD7////AAADAAEAAAD7//7/AAADAAEAAAD7//3/AAADAAEAAAD7//z/AAADAAEAAAD7//v/AAADAAEAAAD7//r/AAADAAEAAAD7//n/AAADAAEAAAD7//j/AAADAAEAAAD7//f/AAADAAEAAAD7//b/AAADAAEAAAD7//X/AAADAAEAAAD7//T/AAADAAEAAAD7//P/AAADAAEAAAAJAPL/AAACAAAAAAAIAPL/AAACAAAAAAAHAPL/AAACAAAAAAAGAPL/AAACAAAAAAAFAPL/AAACAAAAAAAEAPL/AAACAAAAAAADAPL/AAACAAAAAAACAPL/AAACAAAAAAABAPL/AAACAAAAAAAAAPL/AAACAAAAAAD///L/AAACAAAAAAD+//L/AAACAAAAAAD9//L/AAACAAAAAAD8//L/AAACAAAAAAD7//L/AAACAAAAAAD7/wAAAAACAAAAAAACAPb/AAADAAMAAAABAPb/AAADAAMAAAAAAPf/AAADAAMAAAD///f/AAADAAMAAAD9//n/AAADAAMAAAD8//n/AAADAAMAAAA=")
+tile_set = SubResource("TileSet_fv805")
+
+[node name="jouer" parent="." instance=ExtResource("2_s7uhu")]

@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://bbsurxxwbgpcq"]
+
+[ext_resource type="Script" uid="uid://gwjgw1ntm6lu" path="res://Assests/script/joueure_controller.gd" id="1_0pcpn"]
+[ext_resource type="Texture2D" uid="uid://iw8183tanyi5" path="res://Assests/sprites/player.png" id="1_i3roa"]
+
+[sub_resource type="GDScript" id="GDScript_0pcpn"]
+script/source = "extends Node2D
+
+@export var player_controller : PlayerController
+@export var animation_player : AnimationPlayer
+@export var sprite : Sprite2D
+
+func _process(delta):
+	# flips the character sprite
+	if player_controller.direction == 1:
+		sprite.flip_h = false
+	elif player_controller.direction == -1:
+		sprite.flip_h = true
+"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0pcpn"]
+radius = 4.0
+height = 14.0
+
+[node name="jouer" type="CharacterBody2D"]
+script = ExtResource("1_0pcpn")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(6, 6)
+
+[node name="perso" type="Node2D" parent="." node_paths=PackedStringArray("player_controller", "animation_player", "sprite")]
+script = SubResource("GDScript_0pcpn")
+player_controller = NodePath("..")
+animation_player = NodePath("AnimationPlayer")
+sprite = NodePath("Sprite2D")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="perso"]
+root_node = NodePath("../..")
+
+[node name="Sprite2D" type="Sprite2D" parent="perso"]
+position = Vector2(0, -8)
+texture = ExtResource("1_i3roa")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7)
+shape = SubResource("CapsuleShape2D_0pcpn")

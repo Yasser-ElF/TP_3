@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1kkhtygapf4o"]
+
+[ext_resource type="PackedScene" uid="uid://bw7ub8k7lmyd7" path="res://platformer_tp1/assets/scenes/area Func/area_template.tscn" id="1_avwog"]
+
+[node name="Area1" instance=ExtResource("1_avwog")]
+
+[node name="AreaExit" parent="." index="2"]
+position = Vector2(527, -47)
+
+[node name="EnergyCell1" parent="EnergyCells" index="0"]
+position = Vector2(213, -17)
+
+[node name="EnergyCell4" parent="EnergyCells" index="3"]
+position = Vector2(161, -33)
+
+[node name="EnergyCell6" parent="EnergyCells" index="5"]
+position = Vector2(92, -1)
+
+[node name="EnergyCell8" parent="EnergyCells" index="7"]
+position = Vector2(76, -1)
+
+[node name="EnergyCell10" parent="EnergyCells" index="9"]
+position = Vector2(142, -33)
+
+[node name="VBoxContainer" parent="PauseMenu" index="0"]
+offset_left = -22.0
+offset_top = -86.0
+offset_right = 567.0
+offset_bottom = 19.0
