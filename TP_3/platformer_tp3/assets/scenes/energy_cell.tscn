@@ -146,10 +146,8 @@ speed_scale = 6.0
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_onj5k")
 
-[node name="collect" type="AudioStreamPlayer2D" parent="."]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_l4pvh")
-volume_db = -80.0
-pitch_scale = 0.01
-attenuation = 26.9087
+volume_db = -30.643
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

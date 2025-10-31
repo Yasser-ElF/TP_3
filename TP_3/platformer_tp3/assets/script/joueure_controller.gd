@@ -11,9 +11,9 @@ var jump_multiplier = -30.0  #controler la hauteur du saut (negatif pour aller v
 var direction = 0  # la direction du mouvement sera utilisee pour l'axe x (g/d)
 
 # initialiser les variables pour les effets sonores une fois la scene prete
-@onready var jump_sfx: AudioStreamPlayer2D = $jumpSfx  #au son de saut
-@onready var fall_sfx: AudioStreamPlayer2D = $fallSfx  #au son de chute
-@onready var marche_sfx: AudioStreamPlayer2D = $marcheSfx  #au son de marche
+@onready var jump_sfx: AudioStreamPlayer2D = $son/jumpSfx  #au son de saut
+@onready var fall_sfx: AudioStreamPlayer2D = $son/fallSfx  #au son de chute
+@onready var marche_sfx: AudioStreamPlayer2D = $son/marcheSfx  #au son de marche
 
 # recuperer la valeur de la gravite par defaut du moteur physique 2d definie dans les parametres du projet
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")  # gravite du monde 2d
