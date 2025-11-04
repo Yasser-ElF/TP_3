@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://vlc7lyei8u2j"]
+
+[ext_resource type="Script" uid="uid://dikyo27jvaqc2" path="res://platformer_tp3/assets/script/saw.gd" id="1_cutmj"]
+[ext_resource type="Texture2D" uid="uid://buae7kml0efa8" path="res://platformer_tp3/assets/sprites/Free/Traps/Saw/On (38x38).png" id="2_tt4p6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iqgjj"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(0, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pocv6"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(38, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_18kie"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(76, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12plg"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(114, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8pw8"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(152, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnmly"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(190, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ango"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(228, 0, 38, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vl2uh"]
+atlas = ExtResource("2_tt4p6")
+region = Rect2(266, 0, 38, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lcw48"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iqgjj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pocv6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_18kie")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12plg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8pw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnmly")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ango")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vl2uh")
+}],
+"loop": true,
+"name": &"On",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1kg5h"]
+radius = 19.2354
+
+[node name="saw" type="Area2D"]
+script = ExtResource("1_cutmj")
+
+[node name="ON" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lcw48")
+animation = &"On"
+frame = 1
+speed_scale = 6.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_1kg5h")

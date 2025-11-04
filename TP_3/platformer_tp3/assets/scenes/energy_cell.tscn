@@ -75,7 +75,7 @@ region = Rect2(512, 0, 32, 32)
 [sub_resource type="SpriteFrames" id="SpriteFrames_2bk5u"]
 animations = [{
 "frames": [{
-"duration": 1.1,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_rfgor")
 }, {
 "duration": 1.0,
@@ -128,7 +128,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"energy_cell",
-"speed": 5.0
+"speed": 20.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onj5k"]
@@ -140,7 +140,6 @@ script = ExtResource("1_5h6l4")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2bk5u")
 animation = &"energy_cell"
-speed_scale = 6.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.5)

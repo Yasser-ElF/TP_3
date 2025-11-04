@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://cuf0k6rk3td34"]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="Enemy" type="CharacterBody2D" parent="."]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Enemy"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
