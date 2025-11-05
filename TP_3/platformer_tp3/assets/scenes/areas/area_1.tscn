@@ -4,8 +4,14 @@
 
 [node name="Area1" instance=ExtResource("1_avwog")]
 
+[node name="saw2" parent="." index="0"]
+position = Vector2(0, 46)
+
 [node name="saw" parent="." index="1"]
 position = Vector2(182, 71)
+
+[node name="saw3" parent="." index="2"]
+position = Vector2(0, 38)
 
 [node name="AreaExit" parent="." index="5"]
 position = Vector2(527, -47)

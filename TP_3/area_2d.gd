@@ -1,12 +1,8 @@
 extends Area2D
 
-@onready var anim: AnimatedSprite2D = $ON
-
 func _ready() -> void:
-	if anim:
-		anim.play()
-	body_entered.connect(_on_body_entered)
-
+		body_entered.connect(_on_body_entered)
+	
 func _on_body_entered(body: Node) -> void:
 	if body is PlayerController:
 		# Defer reload to avoid physics-callback warnings
