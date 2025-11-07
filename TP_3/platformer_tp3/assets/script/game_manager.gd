@@ -16,9 +16,14 @@ func set_up_area():
 
 func add_energy_cell():
 	energy_cells += 1
+	
 	if energy_cells >= 10:
-		var portal = get_tree().get_first_node_in_group("area_exits") as AreaExit
-		portal.open()
+		if current_area == 3:
+
+			get_tree().change_scene_to_file("res://platformer_tp3/assets/scenes/gameover.tscn")
+		else:
+			var portal = get_tree().get_first_node_in_group("area_exits") as AreaExit
+			portal.open()
 
 func reset_energy_cells():
 	energy_cells = 0

@@ -1,4 +1,4 @@
-extends Control
+extends CanvasLayer
 
 var pause_toggle = false
 
@@ -26,7 +26,7 @@ func _on_resume_pressed() -> void:
 
 func _on_restart_pressed() -> void:
 	pause_and_unpause()
-	get_tree().reload_current_scene()
+	
 
 
 func _on_quit_pressed() -> void:

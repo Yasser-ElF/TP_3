@@ -9,6 +9,8 @@ class_name PlayerController
 var speed_multiplier = 30.0  # controler la rapidite du mouvement
 var jump_multiplier = -30.0  #controler la hauteur du saut (negatif pour aller vers le haut)
 var direction = 0  # la direction du mouvement sera utilisee pour l'axe x (g/d)
+var was_on_floor = false
+var DustScene := preload("res://platformer_tp3/assets/scenes/dust.tscn")
 
 # initialiser les variables pour les effets sonores une fois la scene prete
 @onready var jump_sfx: AudioStreamPlayer2D = $son/jumpSfx  #au son de saut
@@ -36,6 +38,14 @@ func _input(event):
 
 # fonction de mise a jour physique, appelee a chaque frame
 func _physics_process(delta):
+	var just_landed = is_on_floor() and not was_on_floor
+	if just_landed:
+		var dust = DustScene.instantiate()
+		dust.global_position = global_position + Vector2(0, 8) # shift to feet height if needed
+		get_tree().current_scene.add_child(dust)
+		# Update landing memory
+	was_on_floor = is_on_floor()
+
 	# gerer la gravite  si le joueur nest pas sur le sol appliquer la gravite
 	if not is_on_floor():
 		# applique la gravite a la vitesse verticale (velocity.y) pendant le temps ecoule

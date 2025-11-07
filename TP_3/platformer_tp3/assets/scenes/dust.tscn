@@ -1,0 +1,36 @@
+[gd_scene load_steps=7 format=3 uid="uid://5c738u5m46lq"]
+
+[ext_resource type="Texture2D" uid="uid://do8durckk20kp" path="res://platformer_tp3/assets/sprites/dust/dust1.png" id="1_j54cx"]
+[ext_resource type="Texture2D" uid="uid://cdqoxlgcwgwbp" path="res://platformer_tp3/assets/sprites/dust/dust2.png" id="2_x1tll"]
+[ext_resource type="Texture2D" uid="uid://dfd1jexhgl8m2" path="res://platformer_tp3/assets/sprites/dust/dust3.png" id="3_judcx"]
+[ext_resource type="Texture2D" uid="uid://c1qsrpk44tmn0" path="res://platformer_tp3/assets/sprites/dust/dust4.png" id="4_shxkn"]
+[ext_resource type="Script" uid="uid://blunnlwyexlcd" path="res://animated_sprite_2d.gd" id="5_j54cx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x1tll"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j54cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_x1tll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_judcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_shxkn")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -17)
+scale = Vector2(1.25, 1.125)
+sprite_frames = SubResource("SpriteFrames_x1tll")
+autoplay = "default"
+script = ExtResource("5_j54cx")

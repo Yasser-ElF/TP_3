@@ -10,15 +10,19 @@
 
 [node name="AreaTemplate" type="Node2D"]
 
-[node name="traps" type="Node2D" parent="."]
+[node name="AreaExit" parent="." instance=ExtResource("6_ehlof")]
+z_index = 1
+position = Vector2(532, -44)
 
-[node name="spikes" parent="traps" instance=ExtResource("7_syist")]
+[node name="traps" type="Node2D" parent="."]
 
 [node name="saw2" parent="traps" instance=ExtResource("6_jwu2g")]
 
 [node name="saw" parent="traps" instance=ExtResource("6_jwu2g")]
 
 [node name="saw3" parent="traps" instance=ExtResource("6_jwu2g")]
+
+[node name="spikes" parent="traps" instance=ExtResource("7_syist")]
 
 [node name="spikes2" parent="traps" instance=ExtResource("7_syist")]
 
@@ -34,9 +38,6 @@ tile_set = ExtResource("1_ch1hp")
 
 [node name="jouer" parent="." instance=ExtResource("2_l2ev2")]
 speed = 4.0
-
-[node name="AreaExit" parent="." instance=ExtResource("6_ehlof")]
-position = Vector2(532, -44)
 
 [node name="EnergyCells" type="Node2D" parent="."]
 
@@ -70,20 +71,23 @@ position = Vector2(0, -53)
 [node name="EnergyCell10" parent="EnergyCells" instance=ExtResource("7_x0c84")]
 position = Vector2(161, -31)
 
-[node name="PauseMenu" type="Control" parent="."]
+[node name="PauseMenu" type="CanvasLayer" parent="."]
 process_mode = 3
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
 script = ExtResource("8_8mvax")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu"]
-layout_mode = 0
-offset_left = -41.0
-offset_top = -94.0
-offset_right = 565.0
-offset_bottom = 117.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -175.5
+offset_top = -58.5
+offset_right = 175.5
+offset_bottom = 58.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
 theme_override_constants/separation = 3
 
 [node name="PausedLabel" type="Label" parent="PauseMenu/VBoxContainer"]

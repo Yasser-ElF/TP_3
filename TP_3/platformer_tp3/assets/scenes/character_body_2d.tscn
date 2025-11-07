@@ -232,6 +232,8 @@ script = ExtResource("1_0pcpn")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
 
 [node name="perso" type="Node2D" parent="." node_paths=PackedStringArray("player_controller")]
 script = SubResource("GDScript_0pcpn")

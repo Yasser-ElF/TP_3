@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://cltokgul3jiv4"]
+
+[ext_resource type="Script" uid="uid://bo4tlctcpf525" path="res://platformer_tp3/assets/script/gameover.gd" id="1_yh0hi"]
+[ext_resource type="Texture2D" uid="uid://cl1lkw6rmu3pd" path="res://platformer_tp3/assets/sprites/Free/Background/Gray.png" id="2_ihnqd"]
+
+[node name="Gameover" type="CanvasLayer"]
+script = ExtResource("1_yh0hi")
+
+[node name="Gray" type="Sprite2D" parent="."]
+position = Vector2(576, 304)
+scale = Vector2(23.3242, 13.7266)
+texture = ExtResource("2_ihnqd")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = -83.0
+offset_right = 101.0
+offset_bottom = -39.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 31
+text = "You Finished!"
+
+[node name="playagain" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -83.0
+offset_top = -37.0
+offset_right = 84.0
+offset_bottom = -6.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 22
+text = "Play Again"
+
+[node name="quit" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -21.0
+offset_top = 3.0
+offset_right = 21.0
+offset_bottom = 34.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit
+"
+
+[connection signal="pressed" from="playagain" to="." method="_on_playagain_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
