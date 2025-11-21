@@ -6,9 +6,24 @@
 [node name="Gameover" type="CanvasLayer"]
 script = ExtResource("1_yh0hi")
 
-[node name="Gray" type="Sprite2D" parent="."]
-position = Vector2(576, 304)
-scale = Vector2(23.3242, 13.7266)
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Gray" type="Sprite2D" parent="CenterContainer"]
+position = Vector2(22.3128, 29.4707)
+scale = Vector2(24.0215, 14.6476)
 texture = ExtResource("2_ihnqd")
 
 [node name="Label" type="Label" parent="."]

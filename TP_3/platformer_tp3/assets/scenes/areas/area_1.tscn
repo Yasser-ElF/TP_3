@@ -41,6 +41,3 @@ offset_top = -104.0
 offset_right = 358.0
 offset_bottom = 53.0
 size_flags_vertical = 4
-
-[node name="Control" parent="." index="7"]
-visible = false
